@@ -107,3 +107,43 @@ button {
     width: 145px;
     padding: 0 8px;
 }
+
+.quiz-box section {
+    padding: 25px 30px 20px 30px;
+    background: #fff;
+}
+
+.quiz-box section .que-text {
+    font-size: 25px;
+
+}
+
+.quiz-box section .option-list {
+    padding: 20px;
+}
+
+section .option-list .option {
+    border: 1px solid #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+ .quiz-box footer {
+     height:50px;
+     width: 100%;
+     padding: 0 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+ }
+
+ .quiz-box footer .total-que span {
+     display: flex;
+ }
+
+ .quiz-box footer .total-que span p {
+    padding: 0 5px;
+ }
