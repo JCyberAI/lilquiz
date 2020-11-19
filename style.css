@@ -10,9 +10,25 @@ body{
     background: lightcoral;
 }
 
-.start-btn{
+.start-btn, 
+.debriefing{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.debriefing{
+    width: 450px;
+    background: tan;
+    border-radius: 10px;
+}
+
+.debriefing, 
+.debriefing-title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightslategray;
+    display: flex;
+    align-items: center;
 }
