@@ -1,8 +1,1 @@
-var quizQuestions[
-
-
-        
-
-
-
-]
+//var quizQuestions[]
