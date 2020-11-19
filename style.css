@@ -19,7 +19,9 @@ body{
     transform: translate(-50%, -50%);
 }
 
+/*Rules Styling*/
 .debriefing {
+    display: none;
     width: 540px;
     background: tan;
     border-radius: 5px;
@@ -28,6 +30,7 @@ body{
     align-items: center;
 }
 
+/*Rules Styling*/
 .debriefing-title{
     height: 60px;
     width: 100%;
@@ -38,18 +41,15 @@ body{
     font-weight: 700;
 }
 
+/*Rules Styling*/
 .debriefing-list {
     padding: 15px 35px;
 }
 
+/*Rules Styling*/
 .list {
     margin: 5px 0;
     font-size: 17px;
-}
-
-span {
-    font-weight: 600;
-    color: coral;
 }
 
 /* Continue & Exit Quiz button stylings*/
