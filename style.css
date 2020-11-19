@@ -10,10 +10,11 @@ body{
     background: lightcoral;
 }
 
-/* Start button page placement*/
+/* Location for classes */
 .start-btn,
 .debriefing,
-.quiz-box {
+.quiz-box, 
+.result-box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -83,6 +84,7 @@ button {
 }
 
 .quiz-box {
+    display: none;
     width: 550px;
     background: #fff;
 
@@ -148,4 +150,20 @@ section .option-list .option {
     padding: 0 5px;
  }
 
- 
+ footer .next-btn {
+    height: 40px;
+    padding: 0 13px;
+ }
+
+ .result-box {
+    background: #fff;
+    display: inline-block;
+    padding: 25px 30px;
+    width: 445px;
+    border-radius:5px;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
+ }
