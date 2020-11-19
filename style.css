@@ -19,17 +19,22 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
+                0px 4px 8px 0 rgba(0,0,0,0.19);
 }
 
 /*Rules Styling*/
 .debriefing {
-    display: none;
+    /*display: none;*/
     width: 540px;
     background: tan;
     border-radius: 5px;
     width: 400px;
     border-bottom: 1px solid lightslategray;
     align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 }
 
 /*Rules Styling*/
@@ -84,9 +89,12 @@ button {
 }
 
 .quiz-box {
-    display: none;
+    /*display: none;*/
     width: 550px;
     background: #fff;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0.9);
 
 }.quiz-box header {
     height: 70px;
@@ -156,6 +164,7 @@ section .option-list .option {
  }
 
  .result-box {
+    /*display: none;*/
     background: #fff;
     display: inline-block;
     padding: 25px 30px;
