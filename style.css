@@ -21,14 +21,12 @@ body{
 .debriefing {
     width: 540px;
     background: tan;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 400px;
+    border-bottom: 1px solid lightslategray;
+    align-items: center;
 }
 
-.debriefing, 
 .debriefing-title{
     height: 60px;
-    width: 100%;
-    border-bottom: 1px solid lightslategray;
-    display: flex;
-    align-items: center;
 }
