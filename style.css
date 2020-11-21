@@ -24,6 +24,7 @@ body{
 }
 
 .activeInfo {
+    position: absolute;
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
