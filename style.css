@@ -23,7 +23,7 @@ body{
                 0px 4px 8px 0 rgba(0,0,0,0.19);
 }
 
-.debriefing.activeInfo{
+.activeInfo {
     z-index: 5;
     opacity: 1;
     pointer-events: auto;
