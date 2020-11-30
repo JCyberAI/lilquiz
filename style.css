@@ -11,10 +11,10 @@ body{
 }
 
 /* Location for classes */
-.start-btn,
+.startBtn,
 .debriefing,
-.quiz-box, 
-.result-box {
+.quizBox, 
+.resultBox {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -23,8 +23,7 @@ body{
                 0px 4px 8px 0 rgba(0,0,0,0.19);
 }
 
-.debriefing-list,
-.quiz-box {
+.debriefing.activeInfo {
     position: absolute;
     z-index: 5;
     opacity: 1;
@@ -47,7 +46,7 @@ body{
 }
 
 /*Rules Styling*/
-.debriefing-title{
+.debriefingTitle{
     height: 60px;
     width: 100%;
     border-bottom: 1px dotted lightslategrey;
@@ -58,7 +57,7 @@ body{
 }
 
 /*Rules Styling*/
-.debriefing-list {
+.debriefingList {
     padding: 15px 35px;
 }
 
@@ -97,7 +96,7 @@ button {
     border-color: black;
 }
 
-.quiz-box {
+.quizBox {
     /*display: none;*/
     width: 550px;
     background: #fff;
@@ -105,7 +104,7 @@ button {
     pointer-events: none;
     transform: translate(-50%, -50%) scale(0.9);
 
-}.quiz-box header {
+}.quizBox header {
     height: 70px;
     padding: 0 30px;
     background: #fff;
@@ -114,12 +113,12 @@ button {
     justify-content: space-between;
 }
 
-.quiz-box header .title {
+.quizBox header .title {
     font-size: 20px;
     font-weight: 600;
 }
 
-.quiz-box header .timer {
+.quizBox header .timer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -127,21 +126,21 @@ button {
     padding: 0 8px;
 }
 
-.quiz-box section {
+.quizBox section {
     padding: 25px 30px 20px 30px;
     background: #fff;
 }
 
-.quiz-box section .que-text {
+.quizBox section .que-text {
     font-size: 25px;
 
 }
 
-.quiz-box section .option-list {
+.quizBox section .option-list {
     padding: 20px;
 }
 
-section .option-list .option {
+section .optionList .option {
     border: 1px solid #007bff;
     display: flex;
     align-items: center;
@@ -149,7 +148,7 @@ section .option-list .option {
     cursor: pointer;
 }
 
- .quiz-box footer {
+ .quizBox footer {
      height:50px;
      width: 100%;
      padding: 0 30px;
@@ -159,20 +158,20 @@ section .option-list .option {
 
  }
 
- .quiz-box footer .total-que span {
+ .quizBox footer .totalQue span {
      display: flex;
  }
 
- .quiz-box footer .total-que span p {
+ .quizBox footer .totalQue span p {
     padding: 0 5px;
  }
 
- footer .next-btn {
+ footer .nextBtn {
     height: 40px;
     padding: 0 13px;
  }
 
- .result-box {
+ .resultBox {
     /*display: none;*/
     background: #fff;
     display: inline-block;
