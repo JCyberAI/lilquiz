@@ -7,10 +7,12 @@ var results = document.querySelectorAll("div.icon, div.completeText, div.endButt
 
 //Delcaring an array for the variables 
 
-var = ["startBtn", "rules", "quizBox", "results"];
+var bodyContent = ["startBtn", "rules", "quizBox", "results"];
 
 //Declaring a function to go through the variables
 
-function boxedContent {
-    
+function boxedContent() {
+    for (bodyContent = 0; i < bodyContent.length; i++) {
+        console.log(boxedContent);
+    }
 }
