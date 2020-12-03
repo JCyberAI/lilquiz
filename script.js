@@ -3,11 +3,11 @@
 var startBtn = document.querySelectorAll("div.startBtn, button");
 var rules = document.querySelectorAll("div.debriefing");
 var quizBox = document.querySelectorAll("div.quizBox, header, section, footer");
-var results = document.querySelectorAll("div.icon, div.completeText, div.endButtons");
+var resultBox = document.querySelectorAll("div.resultBox");
 
 //Delcaring an array for the variables 
 
-var bodyContent = ["startBtn", "rules", "quizBox", "results"];
+var bodyContent = ["startBtn", "rules", "quizBox", "resultBox"];
 
 //Declaring a function to go through the variables
 
