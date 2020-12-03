@@ -13,7 +13,7 @@ body{
 /* Location for classes */
 .startBtn,
 .debriefing,
-.quizBox, 
+/*.quizBox,*/
 .resultBox {
     position: absolute;
     top: 50%;
