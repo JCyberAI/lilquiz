@@ -9,10 +9,15 @@ var resultBox = document.querySelectorAll("div.resultBox");
 
 var bodyContent = ["startBtn", "rules", "quizBox", "resultBox"];
 
-//Declaring a function to go through the variables
+//Declaring a function to go through the array
 
 function boxedContent() {
     for (bodyContent = 0; i < bodyContent.length; i++) {
         console.log(boxedContent);
     }
+}
+
+// If statement saying when start button is clicked switch the user window to rules
+if (startBtn === onclick){
+    
 }
