@@ -19,5 +19,5 @@ function boxedContent() {
 
 // If statement saying when start button is clicked switch the user window to rules
 if (startBtn === onclick){
-    
+    startBtn.add(debriefing);
 }
