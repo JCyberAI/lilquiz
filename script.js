@@ -1,6 +1,6 @@
 //Declareing variables of certian HTML classes (in Divs) & elements
 
-var startBtn = document.querySelectorAll(".startBtn");
+//var startBtn = document.querySelectorAll(".startBtn");
 var rules = document.querySelectorAll(".debriefing");
 var quizBox = document.querySelectorAll(".quizBox");
 var resultBox = document.querySelectorAll(".resultBox");
