@@ -14,9 +14,9 @@ boxedContent()
 
 //Declaring a function to go through the array
 
-function boxedContent() {
-
-    startBtn.classList.add("activeInfo")
+document.getElementsByClassName("startBtn").onclick = function boxedContent() {
+    document.getElementsByClassName("startBtn").getElementsByClassName("activeInfo");
+}
 
 }
 
