@@ -18,7 +18,6 @@ document.getElementsByClassName("startBtn").onclick = function boxedContent() {
     document.getElementsByClassName("startBtn").getElementsByClassName("activeInfo");
 }
 
-}
 
 /*for (i = 0; i < bodyContent.length; i++) {
     console.log(boxedContent);
