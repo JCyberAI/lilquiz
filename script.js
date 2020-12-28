@@ -2,7 +2,7 @@
 
 var startBtn = document.querySelectorAll(".startBtn, button");
 var rules = document.querySelectorAll(".debriefing");
-var quizBox = document.querySelectorAll(".quizBox, header, section, footer");
+var quizBox = document.querySelectorAll(".quizBox");
 var resultBox = document.querySelectorAll(".resultBox");
 
 //Delcaring an array for the variables 
@@ -16,9 +16,9 @@ boxedContent()
 
 function boxedContent() {
 
-    if (startBtn === onclick) {
-        boxedContent.add("activeInfo");
-}}
+    startBtn.classList.add("activeInfo")
+
+}
 
 /*for (i = 0; i < bodyContent.length; i++) {
     console.log(boxedContent);
