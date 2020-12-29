@@ -1,6 +1,6 @@
 //Declareing variables of certian HTML classes (in Divs) & elements
 
-var startBtn = document.querySelectorAll(".startBtn");
+//var startBtn = document.querySelectorAll(".startBtn");
 var rules = document.querySelectorAll(".debriefing");
 var quizBox = document.querySelectorAll(".quizBox");
 var resultBox = document.querySelectorAll(".resultBox");
@@ -14,10 +14,13 @@ boxedContent()
 
 //Declaring a function to go through the array
 
-document.getElementsByClassName("startBtn").onclick = function boxedContent() {
+function boxedContent () {
+    
+    document.getElementsByClassName("startBtn").onclick = function otherContent() {
     document.getElementsByClassName("startBtn").getElementsByClassName("activeInfo");
-}
 
+    }
+}
 
 /*for (i = 0; i < bodyContent.length; i++) {
     console.log(boxedContent);
