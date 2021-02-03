@@ -14,14 +14,14 @@ boxedContent()
 
 //Declaring a function to go through the array
 
-function boxedContent () {
-    
+var hold = function boxedContent () {
+
+    for (i = 0; i < bodyContent.length; i++) {
+    console.log(boxedContent);
+    }
     document.getElementsByClassName("startBtn").onclick = function otherContent() {
     document.getElementsByClassName("startBtn").getElementsByClassName("activeInfo");
 
     }
 }
 
-/*for (i = 0; i < bodyContent.length; i++) {
-    console.log(boxedContent);
-}*/
