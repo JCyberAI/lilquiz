@@ -5,9 +5,9 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     background: lightcoral;
-}
+} */
 
 /* Location for classes */
 
@@ -35,9 +35,8 @@ body{
 }
 
 .activeInfo {
-    display: inline;
-    position: relative;
-    float: inline-start;
+    display: flex;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
