@@ -10,16 +10,17 @@ var secondsLeft = 30;
 
 
 // Declaring the functions
-boxedContent()
+boxedContent();
+setTime();
 
 //Declaring a function to go through the array
 
 function boxedContent() {
 
-    var bodyContent = ["startBtn", "rules", "quizBox", "resultBox"];
+    var bodyContent = [startBtn, rules, quizBox, resultBox];
 
     for (i = 0; i < bodyContent.length; i++) {
-        document.getElementsByClassName("startBtn").getElementsByClassName("activeInfo");
+        startBtn.appendChild("activeInfo");
     }
 
 }
@@ -34,7 +35,7 @@ function setTime() {
             sendMessage();
         }
 
-    }, 1000);
+    }, 1800);
 }
 
 function sendMessage() {
@@ -46,6 +47,4 @@ function sendMessage() {
     timer.appendChild(message);
 
 }
-
-setTime();
 
