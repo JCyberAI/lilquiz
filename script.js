@@ -1,10 +1,10 @@
 //Declareing variables of certian HTML classes (in Divs) & elements
 
-var startBtn = document.querySelectorAll("startBtn");
-var rules = document.querySelectorAll(".debriefing");
-var quizBox = document.querySelectorAll(".quizBox");
-var resultBox = document.querySelectorAll(".resultBox");
-var timmerSec = document.querySelectorAll("quizBox, header, timer, timerSec");
+var startBtn = document.querySelector("startBtn");
+var rules = document.querySelector(".debriefing");
+var quizBox = document.querySelector(".quizBox");
+var resultBox = document.querySelector(".resultBox");
+var timmerSec = document.querySelector("timerSec");
 var timer = document.getElementById("timer");
 var secondsLeft = 30;
 
