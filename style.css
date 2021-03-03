@@ -5,12 +5,11 @@
     box-sizing: border-box;
 }
 
-/* body{
+body {
+
     background: lightcoral;
-} */
 
-/* Location for classes */
-
+}
 
 /* Use below to switch Div elements? (containing the information) */
 .startBtn {
