@@ -21,3 +21,25 @@
     box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
                 0px 4px 8px 0 rgba(0,0,0,0.19);
 }
+
+.debriefing,
+.quizBox,
+.resultBox {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
+                0px 4px 8px 0 rgba(0,0,0,0.19);
+}
+
+.activeInfo {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2),
+                0px 4px 8px 0 rgba(0,0,0,0.19);
+}
